@@ -1,0 +1,9 @@
+{
+  "extends": "./vite.json",
+  "display": "Vite-React",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "types": ["vitest/globals"]
+  }
+}

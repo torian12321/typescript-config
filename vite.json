@@ -1,0 +1,10 @@
+{
+  "extends": "./base.json",
+  "display": "Vite",
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM"],
+    "sourceMap": true,
+    "moduleResolution": "bundler"
+  }
+}

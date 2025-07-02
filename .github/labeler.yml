@@ -1,0 +1,14 @@
+documentation:
+- changed-files:
+  - any-glob-to-any-file: [
+    '**/*.md',
+    '**/*.mdx'
+  ]
+
+TS rules 📘:
+- changed-files:
+  - any-glob-to-any-file: ['base.json', 'vite.json', 'vite-react.json']
+
+github actions:
+- changed-files:
+  - any-glob-to-any-file: ['.github/**/*']

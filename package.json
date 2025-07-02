@@ -1,0 +1,14 @@
+{
+  "name": "@torian12321/typescript-config",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torian12321/typescript-config.git"
+  }
+}
