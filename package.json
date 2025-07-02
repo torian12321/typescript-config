@@ -12,9 +12,9 @@
     "publish": "npm publish"
   },
   "files": [
-    "base.json",
-    "vite.json",
-    "vite-react.json"
+    "src/base.json",
+    "src/vite.json",
+    "src/vite-react.json"
   ],
   "keywords": [
     "typescript",

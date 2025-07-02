@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const configFiles = ['base.json', 'vite.json', 'vite-react.json'];
+const configFiles = ['src/base.json', 'src/vite.json', 'src/vite-react.json'];
 
 console.log('Validating TypeScript configuration files...\n');
 
