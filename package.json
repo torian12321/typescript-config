@@ -8,8 +8,7 @@
   "scripts": {
     "postinstall": "npmrc-replace-env",
     "validate": "node scripts/validate.js",
-    "prepublishOnly": "npm run validate",
-    "publish": "npm publish"
+    "prepublishOnly": "npm run validate"
   },
   "files": [
     "src/base.json",
