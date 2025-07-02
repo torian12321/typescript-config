@@ -1,8 +1,22 @@
 {
   "name": "@torian12321/typescript-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Reusable TypeScript configurations for different project types",
   "type": "module",
-  "private": true,
+  "author": "torian12321",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "vite.json",
+    "vite-react.json"
+  ],
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "configuration",
+    "vite",
+    "react"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
@@ -10,5 +24,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/torian12321/typescript-config.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run validate",
+    "validate": "node scripts/validate.js"
   }
 }

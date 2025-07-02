@@ -21,7 +21,7 @@ All configurations inherit from `base.json` file, and `vite.json` is also the re
 Add typescript config to your app/package as a dependency by running the command:
 
 ```sh
-npm install @torian12321/typescrip-config --save-dev
+npm install @torian12321/typescript-config --save-dev
 ```
 
 ## Usage
