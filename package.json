@@ -1,6 +1,6 @@
 {
   "name": "@torian12321/typescript-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Reusable TypeScript configurations for different project types",
   "type": "module",
   "author": "torian12321",
@@ -17,6 +17,7 @@
     "vite",
     "react"
   ],
+  "prettier": "@torian12321/prettier-config",
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
@@ -26,7 +27,15 @@
     "url": "git+https://github.com/torian12321/typescript-config.git"
   },
   "scripts": {
+    "postinstall": "npmrc-replace-env",
+    "validate": "node scripts/validate.js",
     "prepublishOnly": "npm run validate",
-    "validate": "node scripts/validate.js"
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@torian12321/prettier-config": "^0.0.0"
+  },
+  "dependencies": {
+    "npmrc-replace-env": "^1.1.4"
   }
 }
