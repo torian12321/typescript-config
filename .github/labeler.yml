@@ -7,7 +7,7 @@ documentation:
 
 TS rules 📘:
 - changed-files:
-  - any-glob-to-any-file: ['base.json', 'vite.json', 'vite-react.json']
+  - any-glob-to-any-file: ['./src/**/*']
 
 github actions:
 - changed-files:

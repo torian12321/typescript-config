@@ -6,10 +6,10 @@
   "author": "torian12321",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npmrc-replace-env",
+    "preinstall": "node scripts/generate-npmrc.js",
     "validate": "node scripts/validate.js",
     "prepublishOnly": "npm run validate",
-    "publish": "npm publish"
+    "format": "prettier --write ."
   },
   "files": [
     "src/base.json",
@@ -33,9 +33,7 @@
     "url": "git+https://github.com/torian12321/typescript-config.git"
   },
   "devDependencies": {
-    "@torian12321/prettier-config": "^0.0.0"
-  },
-  "dependencies": {
-    "npmrc-replace-env": "^1.1.4"
+    "@torian12321/prettier-config": "^0.0.1",
+    "prettier": "^3.6.2"
   }
 }
