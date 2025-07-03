@@ -6,7 +6,7 @@
   "author": "torian12321",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npmrc-replace-env",
+    "preinstall": "node scripts/generate-npmrc.js",
     "validate": "node scripts/validate.js",
     "prepublishOnly": "npm run validate"
   },
@@ -33,8 +33,5 @@
   },
   "devDependencies": {
     "@torian12321/prettier-config": "^0.0.0"
-  },
-  "dependencies": {
-    "npmrc-replace-env": "^1.1.4"
   }
 }
