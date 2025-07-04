@@ -22,4 +22,6 @@ All configurations inherit from `base.json` file, and `vite.json` is also the re
 
 ## Environment Setup
 
+test
+
 Copy `.npmrc.example` as `.npmrc` and replace 'YOUR_GITHUB_TOKEN_HERE' with your [GitHub personal access token](https://github.com/settings/tokens) to allow publishing.
