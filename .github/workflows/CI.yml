@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@torian12321'
+
+      - name: Prepare .npmrc from example
+        run: |
+          cp .npmrc.example .npmrc
+          sed -i "s|YOUR_GITHUB_TOKEN_HERE|${{ secrets.NPM_PKG_GITHUB_TOKEN }}|g" .npmrc
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate json files
+        run: npm run validate
