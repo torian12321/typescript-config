@@ -6,7 +6,6 @@
   "author": "torian12321",
   "license": "MIT",
   "scripts": {
-    "preinstall": "node scripts/generate-npmrc.js",
     "validate": "node scripts/validate.js",
     "prepublishOnly": "npm run validate",
     "format": "prettier --write ."
