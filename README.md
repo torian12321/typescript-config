@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/torian12321/typescript-config/actions/workflows/CI.yml"><img src="https://github.com/torian12321/typescript-config/actions/workflows/CI.yml/badge.svg?branch=main" alt="build status"></a>
+</p>
+
 # Config Typescript
 
 Shared configuration to use with [Typescript](https://www.typescriptlang.org/).
