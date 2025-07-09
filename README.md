@@ -1,5 +1,8 @@
 <p align="center">
   <a href="https://github.com/torian12321/typescript-config/actions/workflows/CI.yml"><img src="https://github.com/torian12321/typescript-config/actions/workflows/CI.yml/badge.svg?branch=main" alt="build status"></a>
+  <a href="https://github.com/torian12321/typescript-config/releases/latest" title="Latest Release">
+  <img alt="GitHub release" src="https://img.shields.io/github/v/release/torian12321/typescript-config" />
+  </a>
 </p>
 
 # Config Typescript
