@@ -29,7 +29,7 @@ Create a `tsconfig.json` in your project root:
 
 ```json
 {
-  "extends": "@torian12321/typescript-config/base.json",
+  "extends": "@torian12321/typescript-config/base",
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
@@ -41,7 +41,7 @@ Create a `tsconfig.json` in your project root:
 
 ```json
 {
-  "extends": "@torian12321/typescript-config/vite.json",
+  "extends": "@torian12321/typescript-config/vite",
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
@@ -53,7 +53,7 @@ Create a `tsconfig.json` in your project root:
 
 ```json
 {
-  "extends": "@torian12321/typescript-config/vite-react.json",
+  "extends": "@torian12321/typescript-config/vite-react",
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
@@ -65,7 +65,7 @@ You can override any settings from the base configurations:
 
 ```json
 {
-  "extends": "@torian12321/typescript-config/vite-react.json",
+  "extends": "@torian12321/typescript-config/vite-react",
   "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
