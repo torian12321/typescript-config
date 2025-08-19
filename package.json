@@ -1,8 +1,14 @@
 {
   "name": "@torian12321/typescript-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reusable TypeScript configurations for different project types",
   "type": "module",
+  "main": "src/base.json",
+  "exports": {
+    "./base": "./src/base.json",
+    "./vite": "./src/vite.json",
+    "./vite-react": "./src/vite-react.json"
+  },
   "author": "torian12321",
   "license": "MIT",
   "scripts": {
@@ -11,9 +17,7 @@
     "format": "prettier --write ."
   },
   "files": [
-    "src/base.json",
-    "src/vite.json",
-    "src/vite-react.json"
+    "src"
   ],
   "keywords": [
     "typescript",
