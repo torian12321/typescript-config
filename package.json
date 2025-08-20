@@ -36,7 +36,7 @@
     "url": "git+https://github.com/torian12321/typescript-config.git"
   },
   "devDependencies": {
-    "@torian12321/prettier-config": "^0.0.1",
+    "@torian12321/prettier-config": "^0.0.2",
     "prettier": "^3.6.2"
   }
 }
