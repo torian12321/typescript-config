@@ -1,4 +1,5 @@
 name: CI
+description: 'CI workflow for the project. Check formatting and validate json files.'
 
 on:
   pull_request:
@@ -30,3 +31,6 @@ jobs:
 
       - name: 🧪 Validate json files
         run: npm run validate
+
+      - name: 📝 Check formatting
+        run: npm run format:check

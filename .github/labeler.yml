@@ -1,14 +1,11 @@
 documentation:
-- changed-files:
-  - any-glob-to-any-file: [
-    '**/*.md',
-    '**/*.mdx'
-  ]
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.md', '**/*.mdx']
 
 TS rules 📘:
-- changed-files:
-  - any-glob-to-any-file: ['./src/**/*']
+  - changed-files:
+      - any-glob-to-any-file: ['./src/**/*']
 
 github actions:
-- changed-files:
-  - any-glob-to-any-file: ['.github/**/*']
+  - changed-files:
+      - any-glob-to-any-file: ['.github/**/*']
