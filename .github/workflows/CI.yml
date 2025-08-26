@@ -31,6 +31,6 @@ jobs:
 
       - name: 🧪 Validate json files
         run: npm run validate
-      
+
       - name: 📝 Check formatting
         run: npm run format:check
